@@ -67,11 +67,6 @@ const rad2deg = function(rad) {
 }
 
 const checkFalsePositives = function(a, b, c, alpha, beta) {
-    if (alpha <= 0 || beta <= 0 || a <= 0 || b <= 0 || c <= 0) {
-        let message = "Zero or negative value detected";
-        console.log(message);
-        return [true, message];
-    }
     if (alpha >= 90 || beta >= 90) {
         let message = "Acute angle is 90 or more degrees";
         console.log(message);
@@ -79,6 +74,11 @@ const checkFalsePositives = function(a, b, c, alpha, beta) {
     }
     if (a >= c || b >= c) {
         let message = "Leg is same lenghts or longer than hypotenuse";
+        console.log(message);
+        return [true, message];
+    }
+    if (alpha <= 0 || beta <= 0 || a <= 0 || b <= 0 || c <= 0) {
+        let message = "Zero or negative value detected";
         console.log(message);
         return [true, message];
     }
