@@ -1,6 +1,8 @@
-var speakWord = "Good Bye";
-
-
-function speak(name) {
-  console.log(speakWord + " " + name);
-}
+const goodbye = function() {
+    var speakWord = "Good Bye";
+    return {
+        speak: function(name) {
+            console.log(speakWord + " " + name)
+        }
+    }  
+} ()
