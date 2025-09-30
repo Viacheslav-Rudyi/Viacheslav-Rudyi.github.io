@@ -31,15 +31,19 @@ let codes = ['ab','aa','af','ak','sq','am','ar','an','hy','as','av','ae','ay','a
 'wa','cy','fy','wo',
 'xh','yi','yo','za','zu'];
 
-console.log("Separator")
+let instruction = `What is happening?
+The following messages say Good Bye [name] if [name] contains any language code
+Otherwise, say Hello [name]`
+console.log(instruction)
 for (let name of names) {
     let sayHello = true;
     for (let i of codes) {
         if (name.toLowerCase().includes(i)) {
-            console.log(goodbye.speak(name))
+            // goodbye.speak(name)
             sayHello = false;
             break
         }
     }
-    if (sayHello) console.log(hello.speak(name));
+    sayHello == true ? hello.speak(name) : goodbye.speak(name);
+    // sayHello && hello.speak(name);
 }
