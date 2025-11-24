@@ -72,7 +72,7 @@ function updateTimer(time, current) {
         game.timeLabel.textContent = "Time left: 0";
         return;
     }
-    game.timeLabel.textContent = "Time left: " + String(parseInt(time));
+    game.timeLabel.textContent = "Time left: " + String(parseInt(time + 1));
     setTimeout(() => {
         updateTimer(time - 0.01, current);
     }, 10);
@@ -98,4 +98,5 @@ function onTargetClicked() {
 
     cmpScore(game.score);
     updateTimer(game.timer, game.score);
+
 }
