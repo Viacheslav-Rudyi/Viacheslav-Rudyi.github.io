@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Square Hunt</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="menu">
+            <label for="">Choose difficulty</label>
+            <select name="difficulty" id="diff-select">
+                <option value="0">--Choose difficulty--</option>
+                <option value="1">easy</option>
+                <option value="2">medium</option>
+                <option value="3">hard</option>
+            </select>
+            <label for="">Choose color</label>
+            <select name="square-color" id="color-select">
+                <option value="0">--Choose color--</option>
+                <option value="#ff0000">red</option>
+                <option value="#00ff00">green</option>
+                <option value="#0000ff">blue</option>
+            </select>
+            <button id="start">Start</button>
+        </div>
+            
+        <div id="gameloop">
+            <label for="" id="score">Score: 0</label>
+            <br><br>
+            <label for="" id="time">Time left: 0</label>
+            <div class="square" id="target"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
