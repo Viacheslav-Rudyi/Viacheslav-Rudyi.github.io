@@ -1,0 +1,9 @@
+.square {
+    position: fixed;
+    left: 50vw;
+    top: 50vh;
+    
+    width: 64px;
+    height: 64px;
+    background: #000;
+}
