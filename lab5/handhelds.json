@@ -1,0 +1,40 @@
+{
+    "id": 3,
+    "name": "Handhelds",
+    "shortname": "HLDS",
+    "notes": "gaming on the go",
+    "products": [
+        {
+            "id": 31,
+            "name": "PS Vita",
+            "shortname": "console 1",
+            "description": "lorem ipsum",
+            "price": 4499,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/PlayStation-Vita-1101-FL.jpg/330px-PlayStation-Vita-1101-FL.jpg"
+        },
+        {
+            "id": 32,
+            "name": "Nintendo Switch",
+            "shortname": "console 2",
+            "description": "lorem ipsum",
+            "price": 20099,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/960px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
+        },
+        {
+            "id": 33,
+            "name": "Steam Deck",
+            "shortname": "console 3",
+            "description": "lorem ipsum",
+            "price": 16999,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Steam_Deck_%28front%29.png/330px-Steam_Deck_%28front%29.png"
+        },
+        {
+            "id": 34,
+            "name": "Nintendo 3DS",
+            "shortname": "console 4",
+            "description": "lorem ipsum",
+            "price": 2799,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nintendo-3DS-AquaOpen.png/250px-Nintendo-3DS-AquaOpen.png"
+        }
+    ]
+}

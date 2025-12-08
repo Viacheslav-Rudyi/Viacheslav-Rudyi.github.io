@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name": "Books",
+        "link": "books.json"
+    },
+    "2": {
+        "name": "Board games",
+        "link": "boardgames.json"
+    },
+    "3": {
+        "name": "Handhelds",
+        "link": "handhelds.json"
+    }
+}

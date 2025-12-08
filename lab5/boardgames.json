@@ -1,0 +1,40 @@
+{
+    "id": 2,
+    "name": "Board games",
+    "shortname": "TTG",
+    "notes": "I LOVE board games",
+    "products": [
+        {
+            "id": 21,
+            "name": "Hanamikoji (Geisze)",
+            "shortname": "game 1",
+            "description": "Simply lovely",
+            "price": 399,
+            "image": "https://cf.geekdo-images.com/uiVZ7QVfRFQx3EBG8eDU8w__itemrep@2x/img/H8pqpip8lv0m-YZwRiNclxEgFdM=/fit-in/492x600/filters:strip_icc()/pic6339446.png"
+        },
+        {
+            "id": 22,
+            "name": "Oriflamme",
+            "shortname": "game 2",
+            "description": "Battle for the throne",
+            "price": 575,
+            "image": "https://cf.geekdo-images.com/8MpTeqlzyIupMpSSxP3PAw__itemrep/img/p1K88arOKzctAl3sWqNvMFwUpiw=/fit-in/246x300/filters:strip_icc()/pic4949335.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Iwari",
+            "shortname": "game 3",
+            "description": "Beautiful",
+            "price": 1499,
+            "image": "https://cf.geekdo-images.com/PBO79o138KG_1aB9rTL53A__itemrep@2x/img/0BhKzbN558eBNPEYSydfA40j_Bg=/fit-in/492x600/filters:strip_icc()/pic4532644.png"
+        },
+        {
+            "id": 24,
+            "name": "Low Five",
+            "shortname": "game 4",
+            "description": "Quick/Memory",
+            "price": 349,
+            "image": "https://cf.geekdo-images.com/vj7EGY1X-dvZZAakwu1qnQ__itemrep@2x/img/KxQV_s5rIH37DxqGQ_-xfpptxg0=/fit-in/492x600/filters:strip_icc()/pic7958409.png"
+        }
+    ]
+}

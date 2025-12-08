@@ -1,0 +1,40 @@
+{
+    "id": 1,
+    "name": "Books",
+    "shortname": "BKS",
+    "notes": "books books books lorem ipsum dolor sit amet",
+    "products": [
+        {
+            "id": 11,
+            "name": "Fall of Hyperion",
+            "shortname": "book 1",
+            "description": "Peak science fiction",
+            "price": 599,
+            "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1541174620i/77565.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Babel",
+            "shortname": "book 2",
+            "description": "Silver magic",
+            "price": 749,
+            "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1677361825i/57945316.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Way of Kings",
+            "shortname": "book 3",
+            "description": "Amazing",
+            "price": 1199,
+            "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905828i/7235533.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Solaris",
+            "shortname": "book 4",
+            "description": "by Stanisław Lem",
+            "price": 179,
+            "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1498631519i/95558.jpg"
+        }
+    ]
+}
