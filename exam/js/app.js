@@ -98,7 +98,7 @@ async function print_expl(arg) {
     con.innerHTML = ""
     if (!arg) return
 
-    let path = "data/" + arg + ".json"
+    let path = "exam/data/" + arg + ".json"
     let f = await fetch(path)
     let response = f.json()
     response.then(function res(res) {
@@ -118,4 +118,5 @@ async function print_expl(arg) {
     })
     
 }
+
 
