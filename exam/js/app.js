@@ -47,6 +47,7 @@ function resolve_div() {
     let o1 = parseFloat(op1.value)
     let o2 = parseFloat(op2.value)
     try {
+        if (o2 == 0) throw new Error("div by 0")
         print_res(o1 / o2)    
     }
     catch (err) {
@@ -58,6 +59,7 @@ function resolve_div() {
 function resolve_log() {
     let o1 = parseFloat(op1.value)
     try {
+        if (o1 <= 0) throw new Error("log error")
         print_res(Math.log(o1))    
     }
     catch (err) {
@@ -89,7 +91,7 @@ function deg2rad(a) {
 
 function print_res(res) {
     res_lbl.innerHTML = "Result: "
-    res ? res_lbl.innerHTML += res : 1;
+    String(res) != "NaN" ? res_lbl.innerHTML += res : 1;
 }
 
 async function print_expl(arg) {
